@@ -1,0 +1,93 @@
+[class*="bg-"] .symbol.statsCount .symbol-label {
+    background-color: rgba(255, 255, 255, 0.278);
+    color: #fff;
+}
+
+.symbol.statsCount .symbol-label {
+    background-color: rgba(24, 28, 50, 0.171);
+    color: rgba(24, 28, 50, 0.588);
+}
+
+.symbol.statsCount {
+    position: absolute;
+    right: 2.5rem;
+    top: 2rem;
+}
+
+.dataTables_wrapper .dataTable tr th,
+.dataTables_wrapper .dataTable tr td:last-child {
+    white-space: nowrap;
+}
+
+.magnific-image,
+.fancybox-buttons {
+    cursor: zoom-in;
+}
+
+.form-control-solid + .select2  {
+    background-color: #F3F6F9;
+    border-color: #F3F6F9;
+}
+
+.form-control-lg + .select2 {
+    height: 44px;
+    border-radius: 4px;
+}
+
+.form-control-lg + .select2.select2-container--default .select2-selection--single, 
+.form-control-lg + .select2.select2-container--default .select2-selection--multiple {
+    height: 44px;
+    background-color: transparent;
+    border: none;
+}
+
+.form-control-lg + .select2.select2-container--default .select2-selection--multiple .select2-selection__rendered .select2-selection__choice {
+    background: #ffffff;
+}
+
+.job-location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.r-location {
+    color: #3F4254;
+    padding: 10px;
+    border: solid 1px #F3F6F9;
+    background-color: #F3F6F9;
+    flex: 1;
+    border-radius: 4px;
+    height: calc(1.5em + 1.65rem + 2px);
+    display: flex;
+    align-items: center;
+}
+
+.r-location .fa {
+    margin-right: 10px;
+}
+
+.r-location.danger{
+    color: #741226;
+    border-color: #ff9baf;
+    background: #fff2f4;
+}
+
+.r-location.success{
+    color: rgb(14, 94, 14);
+    border-color: rgb(176, 255, 176);
+    background: #ddffde;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    display: flex;
+    align-items: center;
+}
+
+.timeline.timeline-6 .timeline-item .timeline-label {
+    width: 130px;
+}
+
+.timeline.timeline-6:before {
+    left: 130.5px;
+}
